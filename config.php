@@ -15,4 +15,7 @@ if(ENVIRONMENT = 'development'){
 	$config['dbuser'] =  'root';
 	$config['dbpass'] = '';
 }
+
+
+
 ?>
