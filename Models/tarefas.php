@@ -19,7 +19,7 @@ class Tarefas extends model {
 	public function delTarefa($id){
 		$this->db->query("DELETE FROM tarefas WHERE id = '$id' ");
 	}
-	public function update Status ($status, $id) {
+	public function updateStatus ($status, $id) {
 		$this->db->query("UPDATE tarefas  SET status = '$status' WHERE id =  '$id' ");
 	}
 }
